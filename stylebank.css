@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: BNAZANIN;
+}
+.header{
+    background-image: url("images4/banks.png");
+}
+.header-2{
+    width: 70%;
+    margin-left: 15%;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+.buttons span{
+    padding: 5px 15px;
+    background: brown;
+    color: white;
+    border-radius: 10px;
+}
+.buttons span:hover{
+    background-color: black;
+    cursor: pointer;
+   }
+.date{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    cursor: pointer;
+}
+.date span{
+ padding: 5px 15px;
+ background: purple;
+ color: white;
+}
+.date span:hover{
+    background-color: blue;
+}
+.input{
+    display: flex;
+  justify-content: space-around ;
+  align-items: center;
+}
+.search input{
+    display: block;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgba(165, 164, 164, 0.959);
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(154, 170, 5);
+}
+.menu span:hover{
+    color: red;
+    background-color: rgb(245, 242, 237);
+    cursor: pointer;
+}
+.img2{
+    margin: 0px auto;
+    border: 1px solid black;
+    width: 70%;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    width: 73%;
+    margin: 0px auto;
+    height: 60px;
+    border: 1px solid silver;
+    background-color: rgba(250, 242, 242, 0.884);
+    direction: rtl;
+    font-size: larger;
+    
+}
+.content2 :hover{
+    background-color: rgba(192, 192, 192, 0.671);
+    color: brown;
+    cursor:pointer;
+}
+.content2 span{
+    font-size: larger;
+}
+.service1{
+    border: 1px solid silver;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    transition: all 0.3s;
+}
+.service2{
+    border: 1px solid silver;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    transition: all 0.3s;
+}
+.service3{
+    border: 1px solid silver;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    transition: all 0.3s;
+}
+.service4{
+    border: 1px solid silver;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    transition: all 0.3s;
+}
+.service5{
+    border: 1px solid silver;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    transition: all 0.3s;
+}
+.darbare{
+    background-color: rgba(250, 242, 242, 0.884);
+    width: 70%;
+    margin: 0px auto;
+    direction: rtl;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.ezafi{
+    border: 2px solid red;
+    box-shadow: 1px 2px 3px red;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: x-large;
+    margin-bottom: 40px;
+    width:70%;
+    margin-left: 15%;
+}
+.ezafi1{
+    text-align: center;
+}
+.ezafi1 i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(0, 38, 207);
+    border-radius: 20px;
+}
+.ezafi1 i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.ezafi2{
+    text-align: center;
+}
+.ezafi2 i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(0, 38, 207);
+    border-radius: 20px;
+}
+.ezafi2 i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.ezafi3{
+    text-align: center;
+}
+.ezafi3 i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(0, 38, 207);
+    border-radius: 20px;
+}
+.ezafi3 i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.ezafi4{
+    text-align: center;
+}
+.ezafi4 i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(0, 38, 207);
+    border-radius: 20px;
+}
+.ezafi4 i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.ezafi5{
+    text-align: center;
+}
+.ezafi5 i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(0, 38, 207);
+    border-radius: 20px;
+}
+.ezafi5 i:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("images4/banks.png");
+}
+.footer1{
+    padding-right: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer1 h3{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.footer2{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer2 h3{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.footer3{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer3 h3{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.footer4{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer4 h3{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
